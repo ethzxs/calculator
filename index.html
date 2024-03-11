@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <title>calculator</title>
+</head>
+<body>
+
+    <table>
+
+        <div class="display">
+            <p id="input"></p>
+            <div class="bar"></div>
+        </div>
+
+        <tr>
+            <td><button onclick="clean()">c</button></td>
+            <td><button onclick="back()"><</button></td>
+            <td><button onclick="add('%')">%</button></td>
+            <td><button onclick="add('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="add('7')">7</button></td>
+            <td><button onclick="add('8')">8</button></td>
+            <td><button onclick="add('9')">9</button></td>
+            <td><button onclick="add('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="add('4')">4</button></td>
+            <td><button onclick="add('5')">5</button></td>
+            <td><button onclick="add('6')">6</button></td>
+            <td><button onclick="add('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="add('1')">1</button></td>
+            <td><button onclick="add('2')">2</button></td>
+            <td><button onclick="add('3')">3</button></td>
+            <td><button onclick="add('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button>+/-</button></td>
+            <td><button onclick="add('0')">0</button></td>
+            <td><button onclick="add('.')">.</button></td>
+            <td><button onclick="calcular()" style="background-color: #f0f000;">=</button></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
